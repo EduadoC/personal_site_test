@@ -1,7 +1,8 @@
 body {
-    background-color: rgb(236, 236, 236);
-    
-    
+    background-color: rgb(236, 236, 236); 
+}
+* {
+    box-sizing: border-box;
 }
 header {
     width: 100%;   
@@ -119,8 +120,7 @@ header {
     background: rgb(226, 226, 226);
     padding: 9px;
     padding-left: 19px;
-    padding-right: 19px;
-    
+    padding-right: 19px;   
 }
 .cover_cart {
     width: 50%;
@@ -296,3 +296,105 @@ footer {
     width: 0.7%;
     margin-left: 1px;
 }
+@media only screen and (max-width: 400px){
+    header {
+        width: 100%;
+    }
+    #join {
+        position: relative;
+        top: 20px;
+        font-size: 1.5rem;
+    }
+    #sign {
+        position: relative;
+        top: 20px;
+        font-size: 1.5rem;
+        left: 50px;
+
+    }
+    #logo_foto {
+        width: 300px;
+        position: relative;  
+    }
+    #drop_down_btn {
+        width: 93.2%;
+        border-radius: 0px;
+        -webkit-appearance: none;
+        border-bottom: 1px solid black;
+    }
+    #f_name {
+        border: none;
+    }
+    #l_name {
+        float: right;
+        position: relative;
+        bottom: 40px;
+    }
+    #search {
+        border: none;
+        position: relative;
+        border-top: 1px solid black;  
+        width: 92.2%;
+        border-radius: 0px;
+        bottom: 40px;
+    }
+    .inputs {
+        height: 98px;
+    }
+    .cover_cart {
+        width: 100%;
+
+    }
+    #cover_foto {
+        width: 100%;
+        position: relative;
+        bottom: 80px;
+    }
+    #profil_foto { 
+        width: 30%;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 5px solid white;
+        position: relative;
+        bottom: 170px;
+        margin: 30px;
+        box-shadow: 5px 10px 18px #888888; 
+    }
+    #name {
+        font-size: 20px;
+    }
+    .daten {
+        position: relative;
+        bottom: 200px;
+        font-size: 12px;
+    }
+    .links  {
+        position: relative;
+        top: 100px;
+        font-size: 1.2rem;
+        width: 350px;
+        left: 30px;
+        margin: auto;
+
+    }
+    #connect_btn {
+        position: relative;
+        bottom: 50px;
+        left: 85px;
+
+       
+    }
+    .about, .experince, .education, .full_profile {
+        width: 100%;
+    }
+    .logo_profil {
+        width: 6%;
+    }
+    #logo_ni, #footer_logo, #web-app {
+        width: 25%;
+    }
+    
+}
+
+
+    
